@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div>
+      <nav id='nav-bar'>
+        <Link to='/'>
+          <div>Portfolio</div>
+        </Link>
+        <div></div>
+        <Link to='math'>
+          <div>Math</div>
+        </Link>
+        <Link to='physics'>
+          <div>Physics</div>
+        </Link>
+        <Link to='english'>
+          <div>English</div>
+        </Link>
+        <Link to='history'>
+          <div>History</div>
+        </Link>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://drive.google.com/drive/folders/1Jx_au4QK8MAkGfqLR83El3_Nw2Rh9oZi?usp=sharing'
+          target='_blank'
+          rel='noreferrer'
         >
-          Learn React
+          Drive
         </a>
-      </header>
+      </nav>
+      <Outlet />
     </div>
-  );
+  )
 }
-
-export default App;
