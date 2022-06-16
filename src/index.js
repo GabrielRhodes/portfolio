@@ -10,10 +10,10 @@ root.render(
     <Routes>
       <Route path='/portfolio/' element={<App />}>
         <Route index element={<Home />} />
-        <Route path='english' element={<English />} />
-        <Route path='history' element={<History />} />
-        <Route path='math' element={<Math />} />
-        <Route path='physics' element={<Physics />} />
+        <Route path='/portfolio/english' element={<English />} />
+        <Route path='/portfolio/history' element={<History />} />
+        <Route path='/portfolio/math' element={<Math />} />
+        <Route path='/portfolio/physics' element={<Physics />} />
       </Route>
     </Routes>
   </BrowserRouter>

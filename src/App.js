@@ -5,20 +5,20 @@ export default function App() {
   return (
     <div>
       <nav id='nav-bar'>
-        <Link to='/'>
+        <Link to='/portfolio/'>
           <div>Portfolio</div>
         </Link>
         <div></div>
-        <Link to='math'>
+        <Link to='/portfolio/math'>
           <div>Math</div>
         </Link>
-        <Link to='physics'>
+        <Link to='/portfolio/physics'>
           <div>Physics</div>
         </Link>
-        <Link to='english'>
+        <Link to='/portfolio/english'>
           <div>English</div>
         </Link>
-        <Link to='history'>
+        <Link to='/portfolio/history'>
           <div>History</div>
         </Link>
         <a
