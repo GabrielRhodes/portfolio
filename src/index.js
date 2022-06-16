@@ -1,12 +1,12 @@
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes, HashRouter } from 'react-router-dom'
 import App from './App'
 import { English, History, Home, Math, Physics } from './screens'
 import './styles.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path='/portfolio/' element={<App />}>
         <Route index element={<Home />} />
@@ -16,5 +16,5 @@ root.render(
         <Route path='/portfolio/physics' element={<Physics />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 )
