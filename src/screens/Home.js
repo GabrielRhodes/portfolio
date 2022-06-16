@@ -18,7 +18,7 @@ function Home() {
         <ul>
           <li>
             <h2>Calculus</h2>
-            <Link to='/math'>Summary Of The Year</Link>
+            <Link to='/portfolio/math'>Summary Of The Year</Link>
             <br />
             <a
               target='_blank'
@@ -30,7 +30,7 @@ function Home() {
           </li>
           <li>
             <h2>Physics</h2>
-            <Link to='/physics'>Summary Of The Year</Link>
+            <Link to='/portfolio/physics'>Summary Of The Year</Link>
             <br />
             <a
               target='_blank'
@@ -42,7 +42,7 @@ function Home() {
           </li>
           <li>
             <h2>English</h2>
-            <Link to='/english'>Summary Of The Year</Link>
+            <Link to='/portfolio/english'>Summary Of The Year</Link>
             <br />
             <a
               target='_blank'
@@ -54,7 +54,7 @@ function Home() {
           </li>
           <li>
             <h2>American History</h2>
-            <Link to='/history'>Summary Of The Year</Link>
+            <Link to='/portfolio/history'>Summary Of The Year</Link>
             <br />
             <a
               target='_blank'
