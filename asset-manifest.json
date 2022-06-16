@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.999be4e0.css",
-    "main.js": "/static/js/main.91f71524.js",
-    "static/media/covidcalculus.png": "/static/media/covidcalculus.fadb23054b8b7bb72704.png",
-    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.e20d5327f1a05620c084.ttf",
-    "index.html": "/index.html",
-    "main.999be4e0.css.map": "/static/css/main.999be4e0.css.map",
-    "main.91f71524.js.map": "/static/js/main.91f71524.js.map"
+    "main.css": "/portfolio/static/css/main.17e35596.css",
+    "main.js": "/portfolio/static/js/main.942ce8e5.js",
+    "static/media/covidcalculus.png": "/portfolio/static/media/covidcalculus.fadb23054b8b7bb72704.png",
+    "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.e20d5327f1a05620c084.ttf",
+    "index.html": "/portfolio/index.html",
+    "main.17e35596.css.map": "/portfolio/static/css/main.17e35596.css.map",
+    "main.942ce8e5.js.map": "/portfolio/static/js/main.942ce8e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.999be4e0.css",
-    "static/js/main.91f71524.js"
+    "static/css/main.17e35596.css",
+    "static/js/main.942ce8e5.js"
   ]
 }
