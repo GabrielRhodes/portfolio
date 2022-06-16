@@ -1,7 +1,6 @@
-import { Outlet } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
-export default function App() {
+export default function Nav() {
   return (
     <div>
       <nav id='nav-bar'>
@@ -29,7 +28,6 @@ export default function App() {
           Drive
         </a>
       </nav>
-      <Outlet />
     </div>
   )
 }

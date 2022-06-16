@@ -1,20 +1,17 @@
 import ReactDOM from 'react-dom/client'
-import { Route, Routes, HashRouter } from 'react-router-dom'
-import App from './App'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { English, History, Home, Math, Physics } from './screens'
 import './styles.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <HashRouter>
+  <BrowserRouter>
     <Routes>
-      <Route path='/portfolio/' element={<App />}>
-        <Route index element={<Home />} />
-        <Route path='#/english' element={<English />} />
-        <Route path='#/history' element={<History />} />
-        <Route path='#/math' element={<Math />} />
-        <Route path='#/physics' element={<Physics />} />
-      </Route>
+      <Route path='/portfolio' element={<Home />} />
+      <Route path='/portfolio/english' element={<English />} />
+      <Route path='/portfolio/history' element={<History />} />
+      <Route path='/portfolio/math' element={<Math />} />
+      <Route path='/portfolio/physics' element={<Physics />} />
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 )
